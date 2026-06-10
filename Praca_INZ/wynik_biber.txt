@@ -1,0 +1,15 @@
+INFO - This is Biber 2.19
+INFO - Logfile is 'build/pdflatex/main.blg'
+INFO - Reading 'build/pdflatex/main.bcf'
+INFO - Found 9 citekeys in bib section 0
+INFO - Processing section 0
+INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+INFO - LaTeX decoding ...
+INFO - Found BibTeX data source 'bibliografia.bib'
+INFO - Overriding locale 'pl-PL' defaults 'variable = shifted' with 'variable = non-ignorable'
+INFO - Overriding locale 'pl-PL' defaults 'normalization = NFD' with 'normalization = prenormalized'
+INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'pl-PL'
+INFO - Writing 'build/pdflatex/main.bbl' with encoding 'UTF-8'
+INFO - Output to build/pdflatex/main.bbl
+WARN - I didn't find a database entry for 'analnaInza' (section 0)
+INFO - WARNINGS: 1
