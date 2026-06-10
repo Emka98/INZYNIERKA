@@ -1,0 +1,344 @@
+%-----------------------------------------------
+%  Engineer's & Master's Thesis Template
+%  Copyleft by Artur M. Brodzki & Piotr Woźniak
+%  Warsaw University of Technology, 2019-2022
+%-----------------------------------------------
+
+\documentclass[
+    bindingoffset=5mm,  % Binding offset
+    footnoteindent=3mm, % Footnote indent
+    hyphenation=true    % Hyphenation turn on/off
+]{src/wut-thesis}
+
+\graphicspath{{tex/img/}} % Katalog z obrazkami.
+\addbibresource{bibliografia.bib} % Plik .bib z bibliografią
+
+%-------------------------------------------------------------
+% Wybór wydziału:
+%  \facultyeiti: Wydział Elektroniki i Technik Informacyjnych
+%  \facultymeil: Wydział Mechaniczny Energetyki i Lotnictwa
+% --
+% Rodzaj pracy: \EngineerThesis, \MasterThesis
+% --
+% Wybór języka: \langpol, \langeng
+%-------------------------------------------------------------
+\facultymeil    % Wydział Elektroniki i Technik Informacyjnych
+\EngineerThesis % Praca inżynierska
+\langpol % Praca w języku polskim
+
+\begin{document}
+
+%------------------
+% Strona tytułowa
+%------------------
+\instytut{samolotów i śmigłowców}
+\kierunek{mechanika i projektowanie maszyn}
+\specjalnosc{lotnictwo}
+\title{
+    Projekt koncepcjny\\bezzałogowego statku powietrznego
+}
+% Title in English for English theses
+% In English theses, you may remove this command
+\engtitle{
+    Conceptual project of\\an ultralight aircraft
+}
+% Title in Polish for English theses
+% Use it only in English theses
+\poltitle{
+    Projekt koncepcjny bezzałogowego statku powietrznego
+}
+\author{Emil Guliński}
+\album{316102}
+\promotor{prof. dr hab. inż. Cezary Galiński}
+\date{\the\year}
+\maketitle
+
+%-------------------------------------
+% Streszczenie po polsku dla \langpol
+% English abstract if \langeng is set
+%-------------------------------------
+\cleardoublepage % Zaczynamy od nieparzystej strony
+\abstract Projekt przedstawia koncepcję małego statku bezzałogowego opracowanego na potrzeby analiz projektowych i wstępnych obliczeń konstrukcyjno‑eksploatacyjnych. 
+Opracowanie obejmuje założenia projektowe, wstępne modelowanie oraz ocenę parametrów technicznych jednostki. 
+Do przeprowadzenia obliczeń, analizy danych i symulacji zastosowano język Python, co umożliwiło szybkie iterowanie wariantów oraz automatyzację procesów obliczeniowych. 
+Wyniki potwierdzają możliwość realizacji założonych parametrów przy zachowaniu kompaktowej konstrukcji i niskiej masy jednostki.
+\keywords DSP, kompozyt, python, XXX
+
+%----------------------------------------
+% Streszczenie po angielsku dla \langpol
+% Polish abstract if \langeng is set
+%----------------------------------------
+\clearpage
+\secondabstract This project presents the conceptual design of a small unmanned vessel developed for preliminary engineering analysis and performance evaluation. 
+The work includes design assumptions, initial modelling, and assessment of the vessel’s technical parameters. 
+Computational tasks, data processing, and simulations were carried out using Python, enabling rapid iteration of design variants and automation of analytical procedures. 
+The results confirm the feasibility of achieving the target performance while maintaining a compact structure and low overall mass.
+\secondkeywords XXX, XXX
+
+\cleardoublepage  % Zaczynamy od nieparzystej strony
+\pagestyle{plain}
+\makeauthorship
+
+%--------------
+% Spis treści
+%--------------
+\cleardoublepage % Zaczynamy od nieparzystej strony
+\tableofcontents
+
+%------------
+% Rozdziały
+%------------
+\cleardoublepage % Zaczynamy od nieparzystej strony
+\pagestyle{headings}
+\input{tex/1-wstep.tex}
+\input{tex/2-studium-wykonalnosci_1.tex}
+\input{tex/3-studium-wykonalnosci_2.tex}
+
+%---------------
+% Bibliografia
+%---------------
+\cleardoublepage % Zaczynamy od nieparzystej strony
+\printbibliography
+
+% Wykaz symboli i skrótów.
+% Pamiętaj, żeby posortować symbole alfabetycznie
+% we własnym zakresie. Makro \acronymlist
+% generuje właściwy tytuł sekcji, w zależności od języka.
+% Makro \acronym dodaje skrót/symbol do listy,
+% zapewniając podstawowe formatowanie.
+\acronymlist
+\acronym{BSP}{Bezałogowy statek powietrzny}
+\acronym{SATA}{Pa}
+\acronym{LOS}{P}
+\acronym{FPV}{First Person View}
+\acronym{IAMIC}{Iran Aircraft Manufacturing Industries Corporation}
+\vspace{0.8cm}
+
+%--------------------------------------
+% Spisy: rysunków, tabel, załączników
+%--------------------------------------
+\pagestyle{plain}
+
+\listoffigurestoc    % Spis rysunków.
+\vspace{1cm}         % vertical space
+\listoftablestoc     % Spis tabel.
+\vspace{1cm}         % vertical space
+\listofappendicestoc % Spis załączników
+
+%-------------
+% Załączniki
+%-------------
+
+% Obrazki i tabele w załącznikach nie trafiają do spisów
+\captionsetup[figure]{list=no}
+\captionsetup[table]{list=no}
+
+% Załącznik 1
+\clearpage
+\appendix{Dane do wykresów}
+\begin{longtable}{| c | m{0,5\linewidth} | c | c |}
+    \caption{Czas lotu i rok produkcji}
+    \label{table:timeyear} \\
+    \hline
+    \textbf{Lp} & \multicolumn{1}{c|}{\textbf{Nazwa}} & \textbf{Rok kontraktu} & \textbf{Czas lotu [h]} \\ \hline \hline
+    \endfirsthead
+
+
+    \hline
+    \endfoot
+    1 & Aerostar & 2000 & 12 \\ \hline
+    2 & Dominator & 2011 & 28 \\ \hline
+    3 & Baykar Bayraktar TB2 & 2011 & 27 \\ \hline
+    4 & Wing Loong I & 2010 & 20 \\ \hline
+    5 & Wing Loong II & 2017 & 20 \\ \hline
+    6 & CH-5 & 2017 & 60 \\ \hline
+    7 & Wing Loong III & 2026 & 40 \\ \hline
+    8 & FH-95 & 2021 & 24 \\ \hline
+    9 & Elbit Hermes 900 & 2010 & 36 \\ \hline
+    10 & General Atomics MQ-1 Predator & 1995 & 24 \\ \hline
+    11 & HAI Pegasus II & 2005 & 15 \\ \hline
+    12 & Heron TP & 2006 & 30 \\ \hline
+    13 & KAL KUS-FS & 2023 & 24 \\ \hline
+    14 & Orion & 2020 & 24 \\ \hline
+    15 & Milkor 380 & 2024 & 35 \\ \hline
+    16 & MQ-1C Gray Eagle Standard & 2005 & 25 \\ \hline
+    17 & MQ-1C Gray Eagle Extended Range & 2015 & 42 \\ \hline
+    18 & MQ-9 Reaper & 2006 & 27 \\ \hline
+    19 & MQ-9B SkyGuardian & 2018 & 40 \\ \hline
+    20 & Qods Mohajer-6 & 2017 & 12 \\ \hline
+    21 & RQ-5 Hunter & 1993 & 12 \\ \hline
+    22 & Shahed 129 & 2013 & 24 \\ \hline
+    23 & Shahed 149 & 2022 & 35 \\ \hline
+    24 & TAI Aksungur & 2021 & 50 \\ \hline
+    25 & TAI Anka-S & 2013 & 24 \\ \hline
+    26 & Vestel Karayel & 2014 & 20 \\ \hline
+    27 & Yabhon United 40 & 2013 & 120 \\ \hline
+\end{longtable}
+
+\begin{longtable}{| c | m{0,5\linewidth} | c |}
+    \caption{Obciążenie mocy [kg/kW]}
+    \label{table:power_load} \\
+    \hline
+    \textbf{Lp} & \multicolumn{1}{c|}{\textbf{Nazwa}} & \textbf{Obciążenie mocy [kg/kW]} \\ \hline \hline
+    \endfirsthead
+    
+    \hline
+    \endfoot
+    
+    1 & Aerostar & 8,23 \\ \hline
+    2 & Dominator & 19,24 \\ \hline
+    3 & Baykar Bayraktar TB2 & 9,52 \\ \hline
+    4 & Wing Loong I & 13,01 \\ \hline
+    5 & Wing Loong II & 9,52 \\ \hline
+    6 & CH-5 & 13,60 \\ \hline
+    7 & Wing Loong III & 8,43 \\ \hline
+    8 & FH-95 & 13,60 \\ \hline
+    9 & Elbit Hermes 900 & 13,95 \\ \hline
+    10 & General Atomics MQ-1 Predator & 12,06 \\ \hline
+    11 & HAI Pegasus II & 8,94 \\ \hline
+    12 & Heron TP & 6,42 \\ \hline
+    13 & KAL KUS-FS & 6,51 \\ \hline
+    14 & Orion & 11,33 \\ \hline
+    15 & Milkor 380 & 12,53 \\ \hline
+    16 & MQ-1C Gray Eagle Standard & 13,46 \\ \hline
+    17 & MQ-1C Gray Eagle Extended Range & 14,39 \\ \hline
+    18 & MQ-9 Reaper & 6,82 \\ \hline
+    19 & MQ-9B SkyGuardian & 8,11 \\ \hline
+    20 & Qods Mohajer-6 & 8,16 \\ \hline
+    21 & RQ-5 Hunter & 9,40 \\ \hline
+    22 & Shahed 129 & 13,01 \\ \hline
+    23 & Shahed 149 & 5,62 \\ \hline
+    24 & TAI Aksungur & 13,20 \\ \hline
+    25 & TAI Anka-S & 12,80 \\ \hline
+    26 & Vestel Karayel & 8,57 \\ \hline
+    27 & Yabhon United 40 & 17,73 \\ \hline
+
+\end{longtable}
+
+\begin{longtable}{| c | m{0,5\linewidth} | c |}
+    \caption{Obciążenie powierzchni {[}kg/m\textsuperscript{2}{]}}
+    \label{table:surface_load} \\
+    \hline
+    \textbf{Lp} & \multicolumn{1}{c|}{\textbf{Nazwa}} & \textbf{\begin{tabular}[c]{@{}c@{}}Obciążenie powierzchni {[}kg/m\textsuperscript{2}{]}\end{tabular}} \\ \hline \hline
+    \endfirsthead
+    
+    \hline
+    \endfoot
+    
+    1 & Aerostar & 45,10 \\ \hline
+    2 & Dominator & 117,25 \\ \hline
+    3 & Baykar Bayraktar TB2 & 66,67 \\ \hline
+    4 & Wing Loong I & 68,32 \\ \hline
+    5 & Wing Loong II & 158,49 \\ \hline
+    6 & CH-5 & 103,13 \\ \hline
+    7 & Wing Loong III & 147,62 \\ \hline
+    8 & FH-95 & 95,65 \\ \hline
+    9 & Elbit Hermes 900 & 78,67 \\ \hline
+    10 & General Atomics MQ-1 Predator & 89,08 \\ \hline
+    11 & HAI Pegasus II & 55,56 \\ \hline
+    12 & Heron TP & 147,27 \\ \hline
+    13 & KAL KUS-FS & 166,67 \\ \hline
+    14 & Orion & 86,96 \\ \hline
+    15 & Milkor 380 & 65,66 \\ \hline
+    16 & MQ-1C Gray Eagle Standard & 132,76 \\ \hline
+    17 & MQ-1C Gray Eagle Extended Range & 131,38 \\ \hline
+    18 & MQ-9 Reaper & 414,17 \\ \hline
+    19 & MQ-9B SkyGuardian & 156,63 \\ \hline
+    20 & Qods Mohajer-6 & 58,82 \\ \hline
+    21 & RQ-5 Hunter & 75,00 \\ \hline
+    22 & Shahed 129 & 63,95 \\ \hline
+    23 & Shahed 149 & 98,41 \\ \hline
+    24 & TAI Aksungur & 92,18 \\ \hline
+    25 & TAI Anka-S & 117,65 \\ \hline
+    26 & Vestel Karayel & 53,39 \\ \hline
+    27 & Yabhon United 40 & 34,09 \\ \hline
+    
+\end{longtable}
+
+\begin{longtable}{| c | m{0,5\linewidth} | c |}
+    \caption{Wydłużenie płata}
+    \label{table:aspect_ratio} \\
+    \hline
+    \textbf{Lp} & \multicolumn{1}{c|}{\textbf{Nazwa}} & \textbf{\begin{tabular}[c]{@{}c@{}}Wydłużenie płata {[}-{]}\end{tabular}} \\ \hline \hline
+    \endfirsthead
+    
+    \hline
+    \endfoot
+    
+    1 & Aerostar & 14,84 \\ \hline
+    2 & Dominator & 11,06 \\ \hline
+    3 & Baykar Bayraktar TB2 & 13,71 \\ \hline
+    4 & Wing Loong I & 12,17 \\ \hline
+    5 & Wing Loong II & 15,86 \\ \hline
+    6 & CH-5 & 13,78 \\ \hline
+    7 & Wing Loong III & 13,71 \\ \hline
+    8 & FH-95 & 12,52 \\ \hline
+    9 & Elbit Hermes 900 & 15,00 \\ \hline
+    10 & General Atomics MQ-1 Predator & 19,13 \\ \hline
+    11 & HAI Pegasus II & 8,54 \\ \hline
+    12 & Heron TP & 17,56 \\ \hline
+    13 & KAL KUS-FS & 18,12 \\ \hline
+    14 & Orion & 23,10 \\ \hline
+    15 & Milkor 380 & 17,47 \\ \hline
+    16 & MQ-1C Gray Eagle Standard & 23,50 \\ \hline
+    17 & MQ-1C Gray Eagle Extended Range & 21,61 \\ \hline
+    18 & MQ-9 Reaper & 35,13 \\ \hline
+    19 & MQ-9B SkyGuardian & 15,91 \\ \hline
+    20 & Qods Mohajer-6 & 9,80 \\ \hline
+    21 & RQ-5 Hunter & 9,22 \\ \hline
+    22 & Shahed 129 & 14,88 \\ \hline
+    23 & Shahed 149 & 14,00 \\ \hline
+    24 & TAI Aksungur & 16,09 \\ \hline
+    25 & TAI Anka-S & 22,52 \\ \hline
+    26 & Vestel Karayel & 9,34 \\ \hline
+    27 & Yabhon United 40 & 9,09 \\ \hline
+\end{longtable}
+
+\begin{longtable}{| c | m{0,5\linewidth} | c |}
+    \caption{Tabela parametrów systemów bezzałogowych}
+    \label{table:mass_ratio} \\
+    \hline
+    \textbf{Lp} & \multicolumn{1}{c|}{\textbf{Nazwa}} & \textbf{\begin{tabular}[c]{@{}c@{}}Masa własna/\\ Masa startowa\end{tabular}} \\ \hline \hline
+    \endfirsthead
+    
+    \hline
+    \endfoot
+    
+    1 & Aerostar & 0,74 \\ \hline
+    2 & Dominator & 0,63 \\ \hline
+    3 & Baykar Bayraktar TB2 & 0,60 \\ \hline
+    4 & Wing Loong I & 0,55 \\ \hline
+    5 & Wing Loong II & 0,39 \\ \hline
+    6 & CH-5 & 0,33 \\ \hline
+    7 & Wing Loong III & 0,63 \\ \hline
+    8 & FH-95 & 0,55 \\ \hline
+    9 & Elbit Hermes 900 & 0,64 \\ \hline
+    10 & General Atomics MQ-1 Predator & 0,50 \\ \hline
+    11 & HAI Pegasus II & 0,74 \\ \hline
+    12 & Heron TP & 0,48 \\ \hline
+    13 & KAL KUS-FS & 0,61 \\ \hline
+    14 & Orion & 0,60 \\ \hline
+    15 & Milkor 380 & 0,54 \\ \hline
+    16 & MQ-1C Gray Eagle Standard & 0,81 \\ \hline
+    17 & MQ-1C Gray Eagle Extended Range & 0,47 \\ \hline
+    18 & MQ-9 Reaper & 0,47 \\ \hline
+    19 & MQ-9B SkyGuardian & 0,48 \\ \hline
+    20 & Qods Mohajer-6 & 0,70 \\ \hline
+    21 & RQ-5 Hunter & 0,61 \\ \hline
+    22 & Shahed 129 & 0,64 \\ \hline
+    23 & Shahed 149 & 0,45 \\ \hline
+    24 & TAI Aksungur & 0,55 \\ \hline
+    25 & TAI Anka-S & 0,72 \\ \hline
+    26 & Vestel Karayel & 0,75 \\ \hline
+    27 & Yabhon United 40 & 0,35 \\ \hline
+\end{longtable}
+% Załącznik 2
+\clearpage
+\appendix{Nazwa załącznika 2}
+
+
+% Używając powyższych spisów jako szablonu,
+% możesz dodać również swój własny wykaz,
+% np. spis algorytmów.
+
+\end{document} % Dobranoc.
