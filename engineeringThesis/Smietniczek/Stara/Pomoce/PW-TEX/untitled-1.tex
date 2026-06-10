@@ -1,0 +1,63 @@
+\documentclass{article}
+
+% --- Pakiety ---
+\usepackage[a4paper, margin=2.5cm]{geometry}
+\usepackage{graphicx}
+\usepackage{fontspec} % Działa tylko z XeLaTeX / LuaLaTeX
+\usepackage{microtype}
+\usepackage{setspace}
+\usepackage{array}
+\pagestyle{empty}
+
+% --- Czcionki systemowe (wymagany XeLaTeX) ---
+\setmainfont{Adagio Slab}
+\newfontfamily\adagiolight{Adagio Slab} % Używamy tej samej czcionki Light, jeśli nie masz oddzielnego pliku
+\newfontfamily\helveticalight{Arial} % Zamiennik Helvetica Light
+
+% --- Dodatkowa komenda na rozstrzelony tekst ---
+\newcommand{\spacedtext}[1]{\textls[180]{#1}}
+
+\begin{document}
+
+\vspace*{2cm}
+
+\begin{center}
+% Lewa część
+\begin{minipage}[c]{0.7\textwidth}
+\centering
+{\fontsize{24pt}{28pt}\selectfont \textbf{Politechnika Warszawska}}\\[1.2cm]
+{\fontsize{12pt}{14pt}\selectfont\spacedtext{WYDZIAŁ / KOLEGIUM}}\\[0.4cm]
+{\fontsize{12pt}{14pt}\selectfont\spacedtext{NAZWA WYDZIAŁU / KOLEGIUM}}
+\end{minipage}%
+\hspace{0.05\textwidth}%
+% Logo
+\begin{minipage}[c]{25mm}
+\centering
+\includegraphics[width=25mm]{logopw.png} % <- Plik musi być w tym samym katalogu
+\end{minipage}
+\end{center}
+
+\vspace{2.5cm}
+
+% Jednostka (np. Katedra)
+\begin{center}
+{\helveticalight\fontsize{12pt}{14pt}\selectfont\itshape Nazwa jednostki}
+\end{center}
+
+\vspace{3cm}
+
+% Tytuł pracy dyplomowej
+\begin{center}
+{\adagiolight\fontsize{43pt}{45pt}\selectfont Praca dyplomowa}\\[1cm]
+{\adagiolight\fontsize{43pt}{45pt}\selectfont inżynierska}
+\end{center}
+
+\vspace{1cm}
+
+% Kierunek i specjalność
+\begin{center}
+{\helveticalight\fontsize{12pt}{14pt}\selectfont\itshape na kierunku Informatyka}\\[0.2cm]
+{\helveticalight\fontsize{12pt}{14pt}\selectfont\itshape w specjalności Systemy i Sieci Komputerowe}
+\end{center}
+
+\end{document}

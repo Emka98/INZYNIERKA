@@ -1,0 +1,9 @@
+Wyniki predykcji danych na rok 2030:
+Czas lotu: 42.135 h
+Zasięg SATA: 3497.177 km
+Rozpiętość skrzydeł: 22.654 m
+Masa własna: 1836.898 kg
+Prędkość przelotowa: 217.888 km/h
+Wydłużenie pałata: 15.468
+Obciązenie powierzchni: 97.177 kg/m^2
+Obciązenie mocy: 11.648 kg/kW

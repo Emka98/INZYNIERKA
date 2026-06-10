@@ -1,0 +1,86 @@
+=== 5 MODELI NAJBARDZIEJ ZBLIŻONYCH DO PROGNOZY NA ROK 2030 ===
+1. Milkor 380 (Firma: Milkor)
+   Dopasowanie: 93.23% (Odległość euklidesowa: 0.1514)
+   Kraj produkcji: RSA
+   Typ napędu: śmigło pchające | Silnik: Rotax 915 iS (Typ: spalinowy tłokowy, Moc: brak danych)
+   - Czas lotu: 35.0 h (prognoza: 42.1 h)
+   - Zasięg: 4000.0 km (prognoza: 3497.2 km)
+   - Wydłużenie płata: 17.47 (prognoza: 15.47)
+   - Obciążenie powierzchni: 65.66 kg/m^2 (prognoza: 97.18 kg/m^2)
+   - Obciążenie mocy: 12.53 kg/kW (prognoza: 11.65 kg/kW)
+   - Profil skrzydła (root): NACA 64-415
+   - Profil skrzydła (tip): NACA 64-412
+   - Wymiary: dł. 9.00 m | wys. 2.40 m | rozpiętość 18.60 m
+   - Zasięgi operacyjne: SATA: 4000 km | LOS: 220 km
+   - Prędkości: przelotowa 150 km/h | max 250 km/h
+   - Pułap operacyjny: 9144 m
+   - Masowe: własna 700.0 kg | startowa 1300.0 kg | ładowność 210.0 kg
+--------------------------------------------------
+2. Elbit Hermes 900 (Firma: Elbit Systems)
+   Dopasowanie: 89.99% (Odległość euklidesowa: 0.2238)
+   Kraj produkcji: Izreal
+   Typ napędu: śmigło pchające | Silnik: Rotax 914 (Typ: spalinowy tłokowy, Moc: brak danych)
+   - Czas lotu: 36.0 h (prognoza: 42.1 h)
+   - Zasięg: 5000.0 km (prognoza: 3497.2 km)
+   - Wydłużenie płata: 15.00 (prognoza: 15.47)
+   - Obciążenie powierzchni: 78.67 kg/m^2 (prognoza: 97.18 kg/m^2)
+   - Obciążenie mocy: 13.95 kg/kW (prognoza: 11.65 kg/kW)
+   - Profil skrzydła (root): Wortmann FX 63-137
+   - Profil skrzydła (tip): Wortmann FX 63-137
+   - Wymiary: dł. 8.30 m | wys. 2.30 m | rozpiętość 15.00 m
+   - Zasięgi operacyjne: SATA: 5000 km | LOS: 250 km
+   - Prędkości: przelotowa 112 km/h | max 220 km/h
+   - Pułap operacyjny: 9144 m
+   - Masowe: własna 750.0 kg | startowa 1180.0 kg | ładowność 350.0 kg
+--------------------------------------------------
+3. Baykar Bayraktar TB2 (Firma:  Baykar Teknoloji)
+   Dopasowanie: 89.35% (Odległość euklidesowa: 0.2380)
+   Kraj produkcji: Turcja
+   Typ napędu: śmigło pchające | Silnik: Rotax 912 (Typ: spalinowy tłokowy, Moc: brak danych)
+   - Czas lotu: 27.0 h (prognoza: 42.1 h)
+   - Zasięg: 4000.0 km (prognoza: 3497.2 km)
+   - Wydłużenie płata: 13.71 (prognoza: 15.47)
+   - Obciążenie powierzchni: 66.67 kg/m^2 (prognoza: 97.18 kg/m^2)
+   - Obciążenie mocy: 9.52 kg/kW (prognoza: 11.65 kg/kW)
+   - Profil skrzydła (root): NACA 4412 
+   - Profil skrzydła (tip): NACA 4412 
+   - Wymiary: dł. 6.50 m | wys. 2.20 m | rozpiętość 12.00 m
+   - Zasięgi operacyjne: SATA: 4000 km | LOS: 300 km
+   - Prędkości: przelotowa 130 km/h | max 220 km/h
+   - Pułap operacyjny: 8229 m
+   - Masowe: własna 420.0 kg | startowa 700.0 kg | ładowność 150.0 kg
+--------------------------------------------------
+4. Shahed 129 (Firma: Iran Aircraft Manufacturing Industries Corporation)
+   Dopasowanie: 88.30% (Odległość euklidesowa: 0.2617)
+   Kraj produkcji: Iran
+   Typ napędu: śmigło pchające | Silnik: Rotax 914 (Typ: spalinowy tłokowy, Moc: brak danych)
+   - Czas lotu: 24.0 h (prognoza: 42.1 h)
+   - Zasięg: 1700.0 km (prognoza: 3497.2 km)
+   - Wydłużenie płata: 14.88 (prognoza: 15.47)
+   - Obciążenie powierzchni: 63.95 kg/m^2 (prognoza: 97.18 kg/m^2)
+   - Obciążenie mocy: 13.01 kg/kW (prognoza: 11.65 kg/kW)
+   - Profil skrzydła (root): Drela GW-19
+   - Profil skrzydła (tip): Drela GW-27 
+   - Wymiary: dł. 8.00 m | wys. 3.10 m | rozpiętość 16.00 m
+   - Zasięgi operacyjne: SATA: 1700 km | LOS: 200 km
+   - Prędkości: przelotowa 150 km/h | max 150 km/h
+   - Pułap operacyjny: 7300 m
+   - Masowe: własna 700.0 kg | startowa 1100.0 kg | ładowność 400.0 kg
+--------------------------------------------------
+5. Wing Loong I (Firma: Chengdu Aircraft Industry Group (CAIG))
+   Dopasowanie: 87.77% (Odległość euklidesowa: 0.2735)
+   Kraj produkcji: Chiny
+   Typ napędu: śmigło pchające | Silnik: Rotax 914 (Typ: spalinowy tłokowy, Moc: brak danych)
+   - Czas lotu: 20.0 h (prognoza: 42.1 h)
+   - Zasięg: 4000.0 km (prognoza: 3497.2 km)
+   - Wydłużenie płata: 12.17 (prognoza: 15.47)
+   - Obciążenie powierzchni: 68.32 kg/m^2 (prognoza: 97.18 kg/m^2)
+   - Obciążenie mocy: 13.01 kg/kW (prognoza: 11.65 kg/kW)
+   - Profil skrzydła (root): Drela GW-19
+   - Profil skrzydła (tip): Drela GW-27
+   - Wymiary: dł. 9.05 m | wys. 2.70 m | rozpiętość 14.00 m
+   - Zasięgi operacyjne: SATA: 4000 km | LOS: 200 km
+   - Prędkości: przelotowa 150 km/h | max 280 km/h
+   - Pułap operacyjny: 7500 m
+   - Masowe: własna 600.0 kg | startowa 1100.0 kg | ładowność 200.0 kg
+--------------------------------------------------
