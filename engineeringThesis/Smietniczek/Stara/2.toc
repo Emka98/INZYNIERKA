@@ -1,7 +1,0 @@
-\babel@toc {polish}{}\relax 
-\contentsline {chapter}{\numberline {1}Wstęp}{2}{}%
-\contentsline {chapter}{\numberline {2}Analiza problemu}{3}{}%
-\contentsline {chapter}{\numberline {3}Projekt rozwiązania}{4}{}%
-\contentsline {chapter}{\numberline {4}Implementacja}{5}{}%
-\contentsline {chapter}{\numberline {5}Wnioski}{6}{}%
-\contentsline {chapter}{Bibliografia}{6}{}%

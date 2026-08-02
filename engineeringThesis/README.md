@@ -1,2 +1,0 @@
-Obliczenia pracy iynierskiej 
-# engineeringThesis

@@ -1,30 +1,14 @@
-%-----------------------------------------------
-%  Engineer's & Master's Thesis Template
-%  Copyleft by Artur M. Brodzki & Piotr Woźniak
-%  Warsaw University of Technology, 2019-2022
-%-----------------------------------------------
-
 \documentclass[
-    bindingoffset=5mm,  % Binding offset
-    footnoteindent=3mm, % Footnote indent
-    hyphenation=true    % Hyphenation turn on/off
+    bindingoffset=5mm,
+    footnoteindent=3mm,
+    hyphenation=true    
 ]{src/wut-thesis}
 
-\graphicspath{{tex/img/}} % Katalog z obrazkami.
-\addbibresource{bibliografia.bib} % Plik .bib z bibliografią
-
-%-------------------------------------------------------------
-% Wybór wydziału:
-%  \facultyeiti: Wydział Elektroniki i Technik Informacyjnych
-%  \facultymeil: Wydział Mechaniczny Energetyki i Lotnictwa
-% --
-% Rodzaj pracy: \EngineerThesis, \MasterThesis
-% --
-% Wybór języka: \langpol, \langeng
-%-------------------------------------------------------------
-\facultymeil    % Wydział Elektroniki i Technik Informacyjnych
-\EngineerThesis % Praca inżynierska
-\langpol % Praca w języku polskim
+\graphicspath{{tex/img/}}
+\addbibresource{bibliografia.bib}
+\facultymeil 
+\EngineerThesis 
+\langpol 
 
 \begin{document}
 
@@ -58,22 +42,76 @@
 % English abstract if \langeng is set
 %-------------------------------------
 \cleardoublepage % Zaczynamy od nieparzystej strony
-\abstract Projekt przedstawia koncepcję małego statku bezzałogowego opracowanego na potrzeby analiz projektowych i wstępnych obliczeń konstrukcyjno‑eksploatacyjnych. 
-Opracowanie obejmuje założenia projektowe, wstępne modelowanie oraz ocenę parametrów technicznych jednostki. 
-Do przeprowadzenia obliczeń, analizy danych i symulacji zastosowano język Python, co umożliwiło szybkie iterowanie wariantów oraz automatyzację procesów obliczeniowych. 
-Wyniki potwierdzają możliwość realizacji założonych parametrów przy zachowaniu kompaktowej konstrukcji i niskiej masy jednostki.
-\keywords DSP, kompozyt, python, XXX
+\abstract
+
+\indent
+Niniejsza praca przedstawia wstępny projekt bezzałogowego statku powietrznego przeznaczonego do misji wywiadowczych, 
+obserwacyjnych i rozpoznawczych.
+Dron charakteryzuje się konfiguracją stałopłata z napędem splinowym w układzie górnopłata.
+Co ułatwia prowadzenie operacji w ograniczonej przestrzeni i skraca przygotowanie do następnej operacji. 
+
+\indent
+Kluczowe elementy drona obejmują komorę ładunkową zdolną do pomieszczenia różnych czujników
+takich jak kamera elektrooptyczna oraz radar SAR. 
+Dron jest również wyposażony w autonomiczne systemy nawigacji oraz pokładowe jednostki przetwarzające, 
+umożliwiające analizę danych i podejmowanie decyzji w czasie rzeczywistym.
+
+\indent
+W procesie projektowyn wykorzystuję następujące technologie.
+Pythona3 z zaimplemontowanymi bibiotekami: 
+NumPy, 
+SciPy, 
+SymPy, 
+Matplotlib, 
+Pandas do zatomatyzowania obilczeń inżynierskich oraz tworzenia wykresów.
+Programu FreeCAD do stworzenia rysunku oraz modelu projektu.
+W celu optymalizacji aerodynamicznej wykorzystuję komputerową mechnikę płynów (CFD) wykonaną programie OpenFOAM.
+W ten sposób walidacjąc stabilności i osiągi statku. 
+Konstrukcja drona została zaprojektowana tak, 
+aby pomieścić niezbędne systemy przy jednoczesnym zachowaniu wydajności aerodynamicznej. 
+Budowa strukturalna opiera się na kadłubie samonośnym.
+Przy wykorzystaniu materiałów kompozytowych, 
+co pozwala na optymalizację stosunku wytrzymałości do masy.
+
+\keywords FreeCAD, Kompozyt, Matplotlib, NumPy, OpenFOAM, Python3, SciPy, SymPy
 
 %----------------------------------------
 % Streszczenie po angielsku dla \langpol
 % Polish abstract if \langeng is set
 %----------------------------------------
 \clearpage
-\secondabstract This project presents the conceptual design of a small unmanned vessel developed for preliminary engineering analysis and performance evaluation. 
-The work includes design assumptions, initial modelling, and assessment of the vessel’s technical parameters. 
-Computational tasks, data processing, and simulations were carried out using Python, enabling rapid iteration of design variants and automation of analytical procedures. 
-The results confirm the feasibility of achieving the target performance while maintaining a compact structure and low overall mass.
-\secondkeywords XXX, XXX
+\secondabstract
+\indent
+This thesis presents a preliminary design of an unmanned aerial vehicle intended for intelligence missions, 
+observation and reconnaissance systems.
+The drone is characterized by a fixed-wing configuration with gas propulsion in a high-wing system.
+This makes it easier to conduct operations in a confined space and shortens the preparation for the next operation.
+
+\indent
+The key components of the drone include a cargo compartment capable of housing various sensors
+such as electro-optical camera and SAR radar. 
+The drone is also equipped with autonomous navigation systems and on-board processing units, 
+enabling data analysis and real-time decision-making.
+
+\indent
+I use the following technologies in the design process.
+Python3 with pre-installed libraries: 
+NumPy, 
+SciPy, 
+SymPy, 
+Matplotlib, 
+Pandas for automatizing engineering and creating graphs.
+FreeCAD to create a drawing and a model of the project.
+For aerodynamic optimization, I use computer fluid mechanics (CFD) made with OpenFOAM.
+Thus, validating the stability and performance of the ship. 
+The design of the drone is designed in such a way that 
+to accommodate the necessary systems while maintaining aerodynamic efficiency. 
+The structural structure is based on a self-supporting hull.
+With the use of composite materials, 
+which allows you to optimize the strength-to-weight ratio.
+
+
+\secondkeywords FreeCAD, Composite, Matplotlib, NumPy, OpenFOAM, Python3, SciPy, SymPy
 
 \cleardoublepage  % Zaczynamy od nieparzystej strony
 \pagestyle{plain}
@@ -94,12 +132,12 @@ The results confirm the feasibility of achieving the target performance while ma
 \input{tex/2-analiza-trendow}
 \input{tex/3-analiza-konkurencjnych-konstrukcji}
 \input{tex/4-definicjia-profilu-misji}
-\input{tex/5-studium-wykonalnosci}
-\input{tex/6-szacunkowa-biegunowa-analityczna}
-\input{tex/7-wyznaczenia-obciążenia-powierzchni}
-\input{tex/8-analiza-kosztow}
-\input{tex/9-wyznaczenie-masy-startowej}
-\input{tex/10-samolot-eksperymentalny}
+% \input{tex/5-studium-wykonalnosci}
+% \input{tex/6-szacunkowa-biegunowa-analityczna}
+% \input{tex/7-wyznaczenia-obciążenia-powierzchni}
+% \input{tex/8-analiza-kosztow}
+% \input{tex/9-wyznaczenie-masy-startowej}
+% \input{tex/10-samolot-eksperymentalny}
 
 %---------------
 % Bibliografia
@@ -115,10 +153,9 @@ The results confirm the feasibility of achieving the target performance while ma
 % zapewniając podstawowe formatowanie.
 \acronymlist
 \acronym{BSP}{Bezałogowy statek powietrzny}
-\acronym{SATA}{Pa}
-\acronym{LOS}{P}
-\acronym{FPV}{First Person View}
-\acronym{IAMIC}{Iran Aircraft Manufacturing Industries Corporation}
+\acronym{SAR}{Synthetic Aperture Radar}
+\acronym{UAS}{Unmanned Aircraft System}
+
 \vspace{0.8cm}
 
 %--------------------------------------

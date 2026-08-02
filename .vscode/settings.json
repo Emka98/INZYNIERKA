@@ -1,0 +1,13 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\emilg\\Desktop\\INZYNIERKA\\Praca_INZ\\main.aux": true,
+        "**/c:\\Users\\emilg\\Desktop\\INZYNIERKA\\Praca_INZ\\main.log": true,
+        "**/c:\\Users\\emilg\\Desktop\\INZYNIERKA\\Praca_INZ\\main.gz": true,
+        "**/c:\\Users\\emilg\\Desktop\\INZYNIERKA\\Praca_INZ\\main.out": true
+    }
+}

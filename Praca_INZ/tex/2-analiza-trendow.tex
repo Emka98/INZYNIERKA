@@ -4,11 +4,13 @@
     \subsection{Wykresy predykcjne}
 
     \paragraph{}
-            W tym rodziale momencie zbiore dane z 27 dronów danej klasy następnie wykonam wykresy kluczowych danych,
-            Wyznacze zależności najważniejszwgo parametru tej klasy dorana czyl czasu lotu od roku produkcji,
-            Następnie wyznaczę wsznaczę zależności najważniejszych parametrów osiągowych od wydłużenia skrzydła,
-            obciążenia powierzchni i ciągu od tego parametru, Rownież postaram się użyć innych parametrów.
-            Dane do wyresów załaczona w załaczniku Nr.1.
+            W celu przeprowadzenia analizy zgromadziłem dane techniczne 27 dronów klasy MALE. 
+            Na ich podstawie opracuję wykresy kluczowych parametrów. 
+            Pierwszym etapem będzie wyznaczenie zależności czasu lotu (jako najważniejszego parametru tej klasy) od roku produkcji płatowca. 
+            W dalszej kolejności przeanalizuję wpływ wydłużenia skrzydła na najważniejsze osiągi, 
+            obciążenie powierzchni oraz ciąg, 
+            a także zbadam korelacje między innymi parametrami projektowymi. 
+            Szczegółowe dane wejściowe wykorzystane do wizualizacji znajdują się w Załączniku nr 1.
 
         \begin{figure}[!h]
             \centering \includegraphics[width=1\linewidth]{Wykresy/Czas_lotu_w_zależności_od_roku_produkcji.png}
@@ -39,18 +41,28 @@
     \subsection{Podsumowanie predykcji}
 
         \paragraph{}
-            Na podstawie danych z wykresów, Jestem wstanie oszacaować,
-            minimalną wartość najważniejszego parametru czasu lotu,
-            Również pozostałe współczuniki oreślahjace dynamikę BSP,
-            Z wykresu Wykres zależności wspołczunika masy własnej do startowej w zależnosći od masy startowej jestem wstanie oszacować współczyniki A i C
-            lepiej opisane w literaturze \cite{galinski}, 
-            Współczyniki te nastepniesprawdziłe zwartościm podanumi w literaturz \cite{raymer}
+            Wykresy pozwoliły mi na oszacowanie minimalnej wartości najważniejszego parametru statku powietrznego
+            czasu lotu a także pozostałych współczynników opisujących charakterystykę dynamiczną BSP. 
+            Na podstawie wykresu przedstawiającego stosunek masy własnej do masy startowej w funkcji masy startowej wyznaczyłem współczynniki $A$ i $C$, 
+            szerzej opisane w literaturze \cite{galinski}. 
+            Poprawność wyznaczonych współczynników zweryfikowałem następnie poprzez porównanie ich 
+            z wartościami dostępnymi w literaturze przedmiotu \cite{raymer}.
 
-            \begin{itemize}
-                \item Czas lotu: 42,135 h
-                \item Wydłużenie pałata: 15,468
-                \item Obciązenie powierzchni: 97,177 kg/m\textsuperscript{2}
-                \item Obciązenie mocy: 11,648 kg/kW
-                \item Współczynik A: 1,510
-                \item Współczynik C: -0,135
-            \end{itemize}
+                  \begin{longtable}{| c | m{0,5\linewidth} | c |}
+            \caption{Współczyniki opisujące charakterystykę dynamiczną}
+            \label{table:współczynników opisujących charakterystykę dynamiczną} \\
+            \hline
+            \textbf{Nazwa parametru} & \multicolumn{1}{c|}{\textbf{Wartość}} & \textbf{Jednostka} \\ \hline \hline
+            \endfirsthead
+            
+            \hline
+            \endfoot
+            
+            Czas lotu & 42,135 & h \\ \hline
+            Wydłużenie pałata & 15,468 & N/A \\ \hline
+            Obciązenie powierzchni & 97,177 & kg/m\textsuperscript{2} \\ \hline
+            Obciązenie mocy & 11,648 & kg/kW \\ \hline
+            Współczynik A & 1,510 & N/A \\ \hline
+            Współczynik C & -0,135 & N/A \\ \hline
+
+        \end{longtable}
