@@ -1,0 +1,117 @@
+Numer;Tytuł;Strona
+Rozdział 1;projektowanie samolotu;14
+1.1;Źródła wymagań technicznych stawianych projektowanym samolotom;17
+1.1.1;Założenia Taktyczno-Techniczne;18
+1.1.2;Regulaminy zawodów, konkursów, rekordów;19
+1.1.3;Analizy ekonomiczne;20
+1.1.4;Projekty badawcze;22
+1.2;Typowe wymagania;25
+1.2.1;Bezpieczeństwo;25
+1.2.2;Ładunek użyteczny;27
+1.2.3;Prędkości;28
+1.2.4;Pułap;29
+1.2.5;Zasięg;30
+1.2.6;Długotrwałość;31
+1.2.7;Start i Lądowanie;32
+1.2.8;Koszt zakupu i/lub eksploatacji;33
+1.2.9;Trwałość;34
+1.2.10;Niezawodność;36
+1.2.11;Gotowość;38
+1.2.12;Wpływ na środowisko;38
+1.3;Proces projektowania samolotu;39
+Rozdział 2;Studium wykonalności;47
+2.1;Analiza trendów;47
+2.2;Definicja misji;50
+2.3;Szacunkowa biegunowa analityczna;52
+2.4;Masa startowa i masa własna samolotu;55
+2.5;Obciążenie powierzchni i obciążenia ciągu (mocy) w różnych fazach lotu;60
+2.5.1;Wznoszenie;60
+2.5.2;Zasięg – samoloty śmigłowe;62
+2.5.3;Zasięg – samoloty odrzutowe;62
+2.5.4;Zakręt „dowolny”;64
+2.5.5;Zakręt prawidłowy;65
+2.5.6;Prędkość maksymalna;67
+2.6;Optymalne obciążenie powierzchni i obciążenia ciągu (mocy);68
+2.6.1;Start;70
+2.6.2;Lądowanie;72
+2.6.3;Wznoszenie;73
+2.6.4;Prędkość minimalna;74
+2.6.5;Warunki przelotowe i inne wymagania;74
+2.7;Analiza kosztów;75
+2.7.1;Rozwój konstrukcji;76
+2.7.2;Wsparcie prac badawczo rozwojowych;77
+2.7.3;Cena silnika i awioniki;77
+2.7.4;Robocizna;78
+2.7.5;Materiały;78
+2.7.6;Oprzyrządowanie i narzędzia;79
+2.7.7;System zapewnienia jakości;79
+2.7.8;Próby w locie;79
+2.7.9;Stawki godzinowe;79
+2.7.10;Cena samolotu;80
+2.8;Studium wykonalności bezzałogowego samolotu eksperymentalnego;80
+2.8.1;Studium wykonalności bezzałogowego samolotu doświadczalnego w układzie zespolonych skrzydeł;82
+Rozdział 3;Płat nośny;90
+3.1;Dobór profilu;91
+3.1.1;Podstawowe definicje i charakterystyki profili;91
+3.1.2;Wpływ lepkości na charakterystyki profili;97
+3.1.3;Wpływ ściśliwości na charakterystyki profili;100
+3.1.4;Maksymalna grubość profilu;102
+3.1.5;Ugięcie szkieletowej;105
+3.1.6;Profile samostateczne;106
+3.1.7;Położenie maksymalnej grubości profilu;108
+3.1.8;Profile nadkrytyczne;110
+3.2;Dobór geometrii płata;111
+3.2.1;Powierzchnia nośna;111
+3.2.2;Średnia cięciwa aerodynamiczna;112
+3.2.3;Kąt zaklinowania;113
+3.2.4;Wydłużenie;114
+3.2.5;Zbieżność;116
+3.2.6;Zwichrzenie aerodynamiczne i geometryczne;120
+3.2.7;Kąt wzniosu;121
+3.2.8;Kąt skosu;122
+3.3;Sterowanie poprzeczne;129
+3.4;Urządzenia zwiększające współczynnik siły nośnej;136
+Rozdział 4;Usterzenia;143
+4.1;Kilka uwag na temat stateczności;143
+4.2;Układy usterzeń;147
+4.3;Profil i skos usterzenia poziomego;168
+4.4;Sterowanie podłużne i kierunkowe;170
+4.5;Siły niezbędne do sterowania;173
+4.6;Nietypowe układy sterowania;178
+Rozdział 5;Kadłub;180
+5.1;Układ ogólny;180
+5.2;Pomieszczenia dla załogi, pasażerów i ładunków;190
+5.2.1;Kabiny załogi;190
+5.2.2;Kabina pasażerska;194
+5.2.3;Ładunek;198
+5.3;Górnopłat, czy dolnopłat;200
+5.4;Aerodynamika kadłuba;207
+Rozdział 6;Podwozie;215
+6.1;Wymagania ogólne;215
+6.2;Najczęściej stosowane konfiguracje podwozia;217
+6.3;Inne układy podwozi;226
+6.4;Przykłady rozwiązań konstrukcyjnych goleni podwozi;229
+6.5;Podwozia chowane;236
+6.6;Drgania shimmy;242
+6.7;Inne rodzaje „podwozi”;247
+Rozdział 7;Integracja zespołu napędowego;252
+7.1;Przegląd spalinowych zespołów napędowych stosowanych w lotnictwie;252
+7.2;Przegląd nietypowych zespołów napędowych stosowanych w lotnictwie;265
+7.3;Zakres zastosowań spalinowych zespołów napędowych stosowanych w lotnictwie;269
+7.4;Silnik i inne źródła zasilania dla instalacji pokładowych;271
+7.5;Gdzie zamontować zespół napędowy?;274
+7.6;Montaż zespołu napędowego;291
+7.7;Chłodzenie zespołu napędowego;300
+7.8;Wloty i wyloty;306
+7.9;Śmigła;318
+Rozdział 8;Kształtowanie i analiza bryły samolotu;337
+8.1;Kształtowanie bryły samolotu;337
+8.1.1;Mały samolot jednosilnikowy;339
+8.1.2;Duży samolot dwusilnikowy;343
+8.2;Analiza masowa;350
+8.3;Analiza charakterystyk aerodynamicznych;353
+8.4;Analiza stateczności i sterowności;355
+8.5;Analiza osiągów;356
+Rozdział 9;Obwiednia obciążeń samolotu;361
+9.1;Procedura wyznaczania obwiedni obciążeń samolotu;361
+9.2;Obciążenia wymiarujące;371
