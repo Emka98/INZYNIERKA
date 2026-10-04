@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.15)  20 SEP 2026 17:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.15)  4 OCT 2026 19:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -931,10 +931,8 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'polish'.
- (main.aux
-Package babel Info: 'polish' activates 'polish' shorthands.
-(babel)             Reported on input line 10.
-)
+
+No file main.aux.
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
@@ -953,7 +951,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
 LaTeX Font Info:    ... okay on input line 13.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 13.
 LaTeX Font Info:    Trying to load font information for FML+futm on input line 13.
- (D:\Programmes\Commercial\MiKTeX\tex/latex/fourier\fmlfutm.fd
+(D:\Programmes\Commercial\MiKTeX\tex/latex/fourier\fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 13.
@@ -1006,14 +1004,14 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `main.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+Package biblatex Info: ... file 'main.bbl' not found.
+
+No file main.bbl.
 Package biblatex Info: Reference section=0 on input line 13.
 Package biblatex Info: Reference segment=0 on input line 13.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1057,7 +1055,6 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package color Info: Driver file: pdftex.def on input line 149.
  (D:\Programmes\Commercial\MiKTeX\tex/latex/graphics\mathcolor.ltx))
 Package hyperref Info: Link coloring ON on input line 13.
- (main.out) (main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
@@ -1082,12 +1079,14 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `futs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<src/pl/header/meil.pdf, id=65, 483.72722pt x 76.8471pt>
+Package babel Info: 'polish' activates 'polish' shorthands.
+(babel)             Reported on input line 13.
+<src/pl/header/meil.pdf, id=3, 483.72722pt x 76.8471pt>
 File: src/pl/header/meil.pdf Graphic file (type pdf)
 <use src/pl/header/meil.pdf>
 Package pdftex.def Info: src/pl/header/meil.pdf  used on input line 32.
 (pdftex.def)             Requested size: 441.01775pt x 70.06229pt.
-<src/pl/title/inz.pdf, id=66, 483.72722pt x 105.39375pt>
+<src/pl/title/inz.pdf, id=4, 483.72722pt x 105.39375pt>
 File: src/pl/title/inz.pdf Graphic file (type pdf)
 <use src/pl/title/inz.pdf>
 Package pdftex.def Info: src/pl/title/inz.pdf  used on input line 32.
@@ -1102,10 +1101,11 @@ pdfTeX warning: pdflatex (file ./src/pl/title/inz.pdf): PDF inclusion: multiple 
 
 ] [3] [4
 
+
 ]
 
 pdfTeX warning: pdflatex (file ./src/pl/authorship/meil.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<src/pl/authorship/meil.pdf, id=89, 597.55246pt x 845.07718pt>
+<src/pl/authorship/meil.pdf, id=27, 597.55246pt x 845.07718pt>
 File: src/pl/authorship/meil.pdf Graphic file (type pdf)
 <use src/pl/authorship/meil.pdf>
 Package pdftex.def Info: src/pl/authorship/meil.pdf  used on input line 79.
@@ -1113,297 +1113,65 @@ Package pdftex.def Info: src/pl/authorship/meil.pdf  used on input line 79.
 [5 <./src/pl/authorship/meil.pdf>] [6
 
 
+]
+No file main.toc.
+\tf@toc=\write5
+\openout5 = `main.toc'.
+
+[7] [8
 
 
-] (main.toc
-LaTeX Font Info:    Trying to load font information for FML+futmi on input line 2.
+] (tex/01-wstep.tex
+LaTeX Font Info:    Trying to load font information for FML+futmi on input line 15.
  (D:\Programmes\Commercial\MiKTeX\tex/latex/fourier\fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 2.
+(Font)              scaled to size 13.24796pt on input line 15.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2.
+(Font)              scaled to size 9.19998pt on input line 15.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
+(Font)              scaled to size 7.35999pt on input line 15.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (D:\Programmes\Commercial\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (D:\Programmes\Commercial\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (D:\Programmes\Commercial\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (D:\Programmes\Commercial\MiKTeX\tex/latex/microtype\mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 2.
+(Font)              scaled to size 13.24796pt on input line 15.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2.
+(Font)              scaled to size 9.19998pt on input line 15.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 2.
+(Font)              scaled to size 7.35999pt on input line 15.
 )
-\tf@toc=\write5
-\openout5 = `main.toc'.
 
- [7] [8
+! LaTeX Error: File `tex/02-wstep.tex' not found.
 
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: tex)
 
-] (tex/1-wstep.tex
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 13.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 13.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 13.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.24796pt on input line 13.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 13.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.35999pt on input line 13.
-) (tex/2-analiza-trendow.tex [9]
-<tex/img/Wykresy/Czas_lotu_w_zależności_od_roku_produkcji.png, id=169, 629.4717pt x 411.6981pt>
-File: tex/img/Wykresy/Czas_lotu_w_zależności_od_roku_produkcji.png Graphic file (type png)
-<use tex/img/Wykresy/Czas_lotu_w_zależności_od_roku_produkcji.png>
-Package pdftex.def Info: tex/img/Wykresy/Czas_lotu_w_zależności_od_roku_produkcji.png  used on input line 16.
-(pdftex.def)             Requested size: 441.01775pt x 288.43797pt.
-<tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_mocy.png, id=171, 623.2083pt x 411.6981pt>
-File: tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_mocy.png Graphic file (type png)
-<use tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_mocy.png>
-Package pdftex.def Info: tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_mocy.png  used on input line 21.
-(pdftex.def)             Requested size: 441.01775pt x 291.34654pt.
+Enter file name: 
+c:/Users/emilg/Desktop/INZYNIERKA/Praca_INZ/main.tex:87: Emergency stop.
+<read *> 
+         
+l.87 \input{tex/02-wstep}
+                         ^^M
+*** (cannot \read from terminal in nonstop modes)
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_powierzchni.png, id=172, 629.7126pt x 411.6981pt>
-File: tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_powierzchni.png Graphic file (type png)
-<use tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_powierzchni.png>
-Package pdftex.def Info: tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_powierzchni.png  used on input line 26.
-(pdftex.def)             Requested size: 441.01775pt x 288.33746pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<tex/img/Wykresy/Czas_lotu_w_zależności_od_wydłużenia.png, id=173, 623.2083pt x 411.6981pt>
-File: tex/img/Wykresy/Czas_lotu_w_zależności_od_wydłużenia.png Graphic file (type png)
-<use tex/img/Wykresy/Czas_lotu_w_zależności_od_wydłużenia.png>
-Package pdftex.def Info: tex/img/Wykresy/Czas_lotu_w_zależności_od_wydłużenia.png  used on input line 31.
-(pdftex.def)             Requested size: 441.01775pt x 291.34654pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<tex/img/Wykresy/Masa_własna_startowa_w_zależności_od_masy_startowej.png, id=174, 613.0905pt x 411.6981pt>
-File: tex/img/Wykresy/Masa_własna_startowa_w_zależności_od_masy_startowej.png Graphic file (type png)
-<use tex/img/Wykresy/Masa_własna_startowa_w_zależności_od_masy_startowej.png>
-Package pdftex.def Info: tex/img/Wykresy/Masa_własna_startowa_w_zależności_od_masy_startowej.png  used on input line 36.
-(pdftex.def)             Requested size: 441.01775pt x 296.15855pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[10
-
- <./tex/img/Wykresy/Czas_lotu_w_zależności_od_roku_produkcji.png>]
-
-LaTeX Warning: Citation 'galinski' on page 11 undefined on input line 47.
-
-
-LaTeX Warning: Citation 'raymer' on page 11 undefined on input line 49.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-Package babel Info: 'polish' activates 'polish' shorthands.
-(babel)             Reported on input line 50.
- [11 <./tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_mocy.png> <./tex/img/Wykresy/Czas_lotu_w_zależności_od_obciążenia_powierzchni.png>]
-
-LaTeX Warning: Text page 12 contains only floats.
-
-
-Underfull \vbox (badness 1789) has occurred while \output is active []
-
- [12 <./tex/img/Wykresy/Czas_lotu_w_zależności_od_wydłużenia.png> <./tex/img/Wykresy/Masa_własna_startowa_w_zależności_od_masy_startowej.png>]) (tex/3-analiza-konkurencjnych-konstrukcji.tex [13]
-
-LaTeX Warning: Citation 'analnaIza' on page 14 undefined on input line 5.
-
-<tex/img/Drony/Dron1/1.jpg, id=206, 545.78906pt x 248.42813pt>
-File: tex/img/Drony/Dron1/1.jpg Graphic file (type jpg)
-<use tex/img/Drony/Dron1/1.jpg>
-Package pdftex.def Info: tex/img/Drony/Dron1/1.jpg  used on input line 10.
-(pdftex.def)             Requested size: 441.01775pt x 200.74046pt.
-
-LaTeX Warning: Citation 'Dron1' on page 14 undefined on input line 11.
-
-
-LaTeX Warning: Citation 'Dron1' on page 14 undefined on input line 11.
-
-[14
-
- <./tex/img/Drony/Dron1/1.jpg>]
-<tex/img/Drony/Dron2/1.jpg, id=214, 727.71875pt x 331.2375pt>
-File: tex/img/Drony/Dron2/1.jpg Graphic file (type jpg)
-<use tex/img/Drony/Dron2/1.jpg>
-Package pdftex.def Info: tex/img/Drony/Dron2/1.jpg  used on input line 44.
-(pdftex.def)             Requested size: 441.01775pt x 200.74551pt.
-
-
-LaTeX Warning: Citation 'Dron2' on page 15 undefined on input line 45.
-
-
-LaTeX Warning: Citation 'Dron2' on page 15 undefined on input line 45.
-
-[15
-
- <./tex/img/Drony/Dron2/1.jpg>]
-<tex/img/Drony/Dron3/1.jpg, id=221, 174.6525pt x 79.497pt>
-File: tex/img/Drony/Dron3/1.jpg Graphic file (type jpg)
-<use tex/img/Drony/Dron3/1.jpg>
-Package pdftex.def Info: tex/img/Drony/Dron3/1.jpg  used on input line 82.
-(pdftex.def)             Requested size: 441.01775pt x 200.77016pt.
-
-
-LaTeX Warning: Citation 'Dron3' on page 16 undefined on input line 83.
-
-
-LaTeX Warning: Citation 'Dron3' on page 16 undefined on input line 83.
-
-[16
-
- <./tex/img/Drony/Dron3/1.jpg>]
-<tex/img/Drony/Dron4/1.png, id=228, 363.85938pt x 165.61874pt>
-File: tex/img/Drony/Dron4/1.png Graphic file (type png)
-<use tex/img/Drony/Dron4/1.png>
-Package pdftex.def Info: tex/img/Drony/Dron4/1.png  used on input line 120.
-(pdftex.def)             Requested size: 441.01775pt x 200.7455pt.
-
-
-LaTeX Warning: Citation 'Dron4' on page 17 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'Dron4' on page 17 undefined on input line 121.
-
-[17
-
- <./tex/img/Drony/Dron4/1.png>]
-<tex/img/Drony/Dron5/1.jpg, id=236, 727.71875pt x 331.2375pt>
-File: tex/img/Drony/Dron5/1.jpg Graphic file (type jpg)
-<use tex/img/Drony/Dron5/1.jpg>
-Package pdftex.def Info: tex/img/Drony/Dron5/1.jpg  used on input line 156.
-(pdftex.def)             Requested size: 441.01775pt x 200.74551pt.
-
-
-LaTeX Warning: Citation 'Dron5' on page 18 undefined on input line 157.
-
-
-LaTeX Warning: Citation 'Dron5' on page 18 undefined on input line 157.
-
-[18
-
- <./tex/img/Drony/Dron5/1.jpg>]
-
-pdfTeX warning: pdflatex (file ./tex/img/Model/model.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<tex/img/Model/model.pdf, id=243, 794.97pt x 614.295pt>
-File: tex/img/Model/model.pdf Graphic file (type pdf)
-<use tex/img/Model/model.pdf>
-Package pdftex.def Info: tex/img/Model/model.pdf  used on input line 193.
-(pdftex.def)             Requested size: 441.01775pt x 340.79715pt.
-) (tex/4-definicjia-profilu-misji.tex [19
-
- <./tex/img/Model/model.pdf>]
-<tex/img/ProfilMisji/misja.png, id=255, 853.68938pt x 188.705pt>
-File: tex/img/ProfilMisji/misja.png Graphic file (type png)
-<use tex/img/ProfilMisji/misja.png>
-Package pdftex.def Info: tex/img/ProfilMisji/misja.png  used on input line 5.
-(pdftex.def)             Requested size: 441.01775pt x 97.48793pt.
-LaTeX Font Info:    Trying to load font information for TS1+futs on input line 14.
- (D:\Programmes\Commercial\MiKTeX\tex/latex/fourier\ts1futs.fd
-File: ts1futs.fd 2003/09/14 Fontinst v1.801 font definitions for TS1/futs.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `futs' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [20 <./tex/img/ProfilMisji/misja.png>]
-
-LaTeX Warning: Empty bibliography on input line 101.
-
-(main.lof)
-\tf@lof=\write6
-\openout6 = `main.lof'.
-
- (main.lot)
-\tf@lot=\write7
-\openout7 = `main.lot'.
-
- (main.app [21
-
-
-])
-\tf@app=\write8
-\openout8 = `main.app'.
-
- [22]
-ignored: Infinite glue shrinkage found in box being split [23
-
-]
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 226.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 226.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 226.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 226.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 226.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 226.
-
-ignored: Infinite glue shrinkage found in box being split [24]
-ignored: Infinite glue shrinkage found in box being split [25] [26]
-
-Package caption Warning: Unused \captionsetup[figure] on input line 140.
-See the caption package documentation for explanation.
-
-[27
-
-] (main.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2026-03-20>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8892E99DF161D0ECAE8DBD797A190600;2215.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 28420 strings out of 469609
- 498223 string characters out of 5466852
- 1697813 words of memory out of 5000000
- 56480 multiletter control sequences out of 15000+600000
- 746710 words of font info for 306 fonts, out of 8000000 for 9000
+ 27645 strings out of 469609
+ 481657 string characters out of 5466852
+ 1656455 words of memory out of 5000000
+ 55978 multiletter control sequences out of 15000+600000
+ 689558 words of font info for 139 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 123i,13n,121p,1045b,2717s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<D:/Programmes/Commercial/MiKTeX/fonts/type1/public/fourier/fourier-ms.pfb><D:/Programmes/Commercial/MiKTeX/fonts/type1/adobe/utopia/putb8a.pfb><D:/Programmes/Commercial/MiKTeX/fonts/type1/adobe/utopia/putr8a.pfb><D:/Programmes/Commercial/MiKTeX/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on main.pdf (27 pages, 2051253 bytes).
-PDF statistics:
- 360 PDF objects out of 1000 (max. 8388607)
- 79 named destinations out of 1000 (max. 500000)
- 82124 words of extra memory for PDF output out of 89155 (max. 10000000)
-
+ 123i,11n,121p,1045b,851s stack positions out of 10000i,1000n,20000p,200000b,200000s
+c:/Users/emilg/Desktop/INZYNIERKA/Praca_INZ/main.tex:87:  ==> Fatal error occurred, no output PDF file produced!
